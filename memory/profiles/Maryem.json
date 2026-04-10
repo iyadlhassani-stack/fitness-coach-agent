@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "nom": "Maryem",
+    "age": 22,
+    "poids_kg": 60,
+    "taille_cm": 160,
+    "sexe": "femme",
+    "objectif": "Prendre du muscle",
+    "niveau": "Avancé",
+    "jours_disponibles": 2,
+    "restrictions_alimentaires": [],
+    "remarques": "Aucune"
+  },
+  "nutrition_plan": {
+    "calories_journalieres": 2500,
+    "proteines_g": 170,
+    "glucides_g": 250,
+    "lipides_g": 70,
+    "repas": {
+      "petit_dejeuner": [
+        "Oeufs brouillés avec du jambon et des légumes (300 calories, 25g de protéines)",
+        "Avenue de flocons d'avoine avec des fruits et des noix (400 calories, 10g de protéines)"
+      ],
+      "dejeuner": [
+        "Poulet grillé avec du riz et des légumes (500 calories, 40g de protéines)",
+        "Salade de thon avec des avocats et des noix (500 calories, 35g de protéines)"
+      ],
+      "diner": [
+        "Boeuf grillé avec des pommes de terre et des légumes (550 calories, 45g de protéines)",
+        "Saumon grillé avec du quinoa et des légumes (500 calories, 40g de protéines)"
+      ],
+      "collations": [
+        "Yaourt grec avec des fruits et des noix (200 calories, 15g de protéines)",
+        "Barre de protéines (150 calories, 10g de protéines)"
+      ]
+    },
+    "conseils": [
+      "Boire au moins 2 litres d'eau par jour",
+      "Faire des exercices de musculation 2 fois par semaine",
+      "Manger des repas équilibrés et variés",
+      "Prendre des suppléments de protéines si nécessaire"
+    ]
+  },
+  "training_plan": {
+    "jours_entrainement": 2,
+    "duree_seance_minutes": 60,
+    "objectif_seance": "Prise de muscle",
+    "programme": {
+      "jour_1": {
+        "nom": "Entraînement de la partie supérieure du corps",
+        "exercices": [
+          {
+            "nom": "Développé couché",
+            "series": 4,
+            "repetitions": "8-12",
+            "repos_secondes": 90
+          },
+          {
+            "nom": "Tirage au cordage",
+            "series": 3,
+            "repetitions": "10-15",
+            "repos_secondes": 60
+          },
+          {
+            "nom": "Élévations latérales",
+            "series": 3,
+            "repetitions": "12-15",
+            "repos_secondes": 60
+          }
+        ]
+      },
+      "jour_2": {
+        "nom": "Entraînement de la partie inférieure du corps",
+        "exercices": [
+          {
+            "nom": "Squat",
+            "series": 4,
+            "repetitions": "8-12",
+            "repos_secondes": 90
+          },
+          {
+            "nom": "Fentes",
+            "series": 3,
+            "repetitions": "10-12",
+            "repos_secondes": 60
+          },
+          {
+            "nom": "Calf raise",
+            "series": 3,
+            "repetitions": "12-15",
+            "repos_secondes": 60
+          }
+        ]
+      }
+    },
+    "conseils": [
+      "Mangez suffisamment de protéines pour soutenir la prise de muscle",
+      "Assurez-vous de boire suffisamment d'eau avant, pendant et après l'entraînement",
+      "Échauffez-vous avant chaque séance d'entraînement et étirez-vous après"
+    ]
+  },
+  "validation": {
+    "valide": true,
+    "score": 9,
+    "problemes": [],
+    "corrections": [],
+    "resume": "Le plan alimentaire et le plan d'entraînement de Maryem sont cohérents avec son objectif de prise de muscle. Les calories journalières sont suffisantes pour supporter l'entraînement, les protéines sont adaptées à l'objectif, le volume d'entraînement est réaliste pour le niveau avancé et les deux plans sont cohérents avec l'objectif de l'utilisateur.",
+    "attempts": 1
+  }
+}
