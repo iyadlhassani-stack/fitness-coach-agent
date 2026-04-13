@@ -52,3 +52,20 @@ def load_history(user_id: str) -> list:
         return []
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+def save_checkin(user_id: str, checkin: dict):
+    from datetime import datetime
+    checkins = load_checkins(user_id)
+    checkin["date"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+    checkins.append(checkin)
+    os.makedirs(MEMORY_DIR, exist_ok=True)
+    path = f"{MEMORY_DIR}/{user_id}_checkins.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(checkins, f, ensure_ascii=False, indent=2)
+
+def load_checkins(user_id: str) -> list:
+    path = f"{MEMORY_DIR}/{user_id}_checkins.json"
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
